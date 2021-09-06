@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <title>BIGI | A Rite Foods Product</title>
+</head>
+
+<body class="body">
+    <!--===== HEADER =====-->
+    <header class="header">
+        <nav class="nav container">
+            <div>
+                <a href="#" class="nav__logo"><img src="assets/img/logo.png"></a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container">
+                <div class="home__img">
+                    <img src="assets/img/bigi1.png" alt="" class="bigi">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">BIGI</h1>
+                    <span class="home__subtitle"> 9ja Fav </span>
+                    <p class="home__description">Come have a taste of Naija's favourite.</p>
+                    <a href="#" class="button">View Our Products</a>
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="assets/img/bigi001.png" onclick="imgSlider('assets/img/bigi1.png')" class="bigi"></li>
+                <li><img src="assets/img/bigi002.png" onclick="imgSlider('assets/img/bigi2.png')" class="bigi"></li>
+                <li><img src="assets/img/bigi003.png" onclick="imgSlider('assets/img/bigi3.png')" class="bigi"></li>
+            </ul>
+            <ul class="socials">
+                <a href="#" class="home__social"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#" class="home__social"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#" class="home__social"><i class='bx bxl-linkedin-square'></i></a>
+            </ul>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Just How Much <br> Do You Know About Us</h2>
+                    <p class="about__description">
+                        Getting refreshed is delightful. However, getting fantastically refreshed is much more rewarding
+                        and satisfying.
+                        Rite Foods Limited has found a way to give back to the community with not only refreshing
+                        beverages but also operate on the highest world standards on the continent.
+                        Bigi drinks emerged at the heart of quality and excellence and will continue to ride on this to
+                        ensure she gives her consumers quality satisfaction they deserve.
+                    </p>
+                    <a href="#" class=" about__button button">Know More</a>
+                </div>
+
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="" class="about__img-one">
+                </div>
+            </div>
+        </section>
+
+        <!--=============== LIMIT ===============-->
+        <section class="limit section" id="limit">
+            <div class="limit__container container grid">
+                <h2 class="section__title limit__title">
+                    Challenge Your Limits <br>With BIGI
+                </h2>
+                <div class="limit__info">
+
+                    <!--=============== LIMIT CARD 1===============-->
+                    <div class="limit__card">
+                        <img src="assets/img/limit1.png" alt="fork" class="limit__img">
+                        <div class="limit__data">
+                            <h2 class="limit__title">FEEL RECHARGED</h2>
+                            <span class="limit__description">With Bigi and Rite beef rolls, filing your body with the
+                                required
+                                calories you need for the day, whether on the go or during leisure, these tasty beef
+                                rolls will leave you
+                                energized throughout the day.s
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--=============== LIMIT CARD 2===============-->
+                    <div class="limit__card">
+                        <img src="assets/img/limit2.png" alt="fork" class="limit__img">
+                        <div class="limit__data">
+                            <h2 class="limit__title">PERFECT TASTE</h2>
+                            <span class="limit__description">With Bigi and Rite beef rolls, filing your body with the
+                                required
+                                calories you need for the day, whether on the go or during leisure, these tasty beef
+                                rolls will leave you
+                                energized throughout the day.s
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--=============== LIMIT CARD 3===============-->
+                    <div class="limit__card">
+                        <img src="assets/img/limit3.png" alt="fork" class="limit__img">
+                        <div class="limit__data">
+                            <h2 class="limit__title">UNLIMITED ENERGY</h2>
+                            <span class="limit__description">With Bigi and Rite beef rolls, filing your body with the
+                                required
+                                calories you need for the day, whether on the go or during leisure, these tasty beef
+                                rolls will leave you
+                                energized throughout the day.s
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--=============== LIMIT CARD 4===============-->
+                    <div class="limit__card">
+                        <img src="assets/img/limit4.png" alt="fork" class="limit__img">
+                        <div class="limit__data">
+                            <h2 class="limit__title">REFRESHMENT DELIGHT</h2>
+                            <span class="limit__description">With Bigi and Rite beef rolls, filing your body with the
+                                required
+                                calories you need for the day, whether on the go or during leisure, these tasty beef
+                                rolls will leave you
+                                energized throughout the day.s
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SLIDEE===============-->
+        <section class="slidee section" id="slidee">
+            <div class="slidee__container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== SLIDER 1 ====================-->
+                    <div class="slidee__card swiper-slide">
+                        <img src="assets/img/slider1.jpg" alt="" class="slidee__img">
+                    </div>
+
+                    <!--==================== SLIDER 2 ====================-->
+                    <div class="slidee__card swiper-slide">
+                        <img src="assets/img/slider2.jpg" alt="" class="slidee__img">
+                    </div>
+
+                    <!--==================== SLIDER 3 ====================-->
+                    <div class="slidee__card swiper-slide">
+                        <img src="assets/img/slider3.jpg" alt="" class="slidee__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=============== FAV ===============-->
+        <section class="fav section" id="fav">
+            <h2 class="section__title">Choose Your Favourite</h2>
+
+            <div class="fav__container container grid">
+                <!--==================== FAV CARD 1 ====================-->
+                <div class="fav__card">
+                    <img src="assets/img/fav1.png" alt="" class="fav__img">
+
+                    <div class="fav__content">
+                        <span class="fav_rating">
+                            <i class='bx bx-star fav__rating-icon'></i>
+                            <span class="fav__rating-number">4.8</span>
+                        </span>
+
+                        <div class="fav__data">
+                            <h3 class="fav__title">SOFT DRINK</h3>
+                            <span class="fav__subtitle">Bigi Cola Drink</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex fav__button">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                </div>
+
+                <!--==================== FAV CARD 2 ====================-->
+                <div class="fav__card">
+                    <img src="assets/img/fav2.png" alt="" class="fav__img">
+
+                    <div class="fav__content">
+                        <span class="fav_rating">
+                            <i class='bx bx-star fav__rating-icon'></i>
+                            <span class="fav__rating-number">4.8</span>
+                        </span>
+
+                        <div class="fav__data">
+                            <h3 class="fav__title">SOFT DRINK</h3>
+                            <span class="fav__subtitle">Bigi Apple Drink</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex fav__button">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                </div>
+
+                <!--==================== FAV CARD 3 ====================-->
+                <div class="fav__card">
+                    <img src="assets/img/fav3.png" alt="" class="fav__img">
+
+                    <div class="fav__content">
+                        <span class="fav_rating">
+                            <i class='bx bx-star fav__rating-icon'></i>
+                            <span class="fav__rating-number">4,8</span>
+                        </span>
+
+                        <div class="fav__data">
+                            <h3 class="fav__title">SOFT DRINK</h3>
+                            <span class="fav__subtitle">Bigi Chapman Drink</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex fav__button">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                </div>
+
+                <!--==================== FAV CARD 4 ====================-->
+                <div class="fav__card">
+                    <img src="assets/img/fav4.png" alt="" class="fav__img">
+
+                    <div class="fav__content">
+                        <span class="fav_rating">
+                            <i class='bx bx-star fav__rating-icon'></i>
+                            <span class="fav__rating-number">4,8</span>
+                        </span>
+
+                        <div class="fav__data">
+                            <h3 class="fav__title">ENERGY DRINK</h3>
+                            <span class="fav__subtitle">Fearless Classic Energy Drink</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex fav__button">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                </div>
+
+                <!--==================== FAV CARD 5 ====================-->
+                <div class="fav__card">
+                    <img src="assets/img/fav6.png" alt="" class="fav__img">
+
+                    <div class="fav__content">
+                        <span class="fav_rating">
+                            <i class='bx bx-star fav__rating-icon'></i>
+                            <span class="fav__rating-number">4,8</span>
+                        </span>
+
+                        <div class="fav__data">
+                            <h3 class="fav__title">SAUSAGES</h3>
+                            <span class="fav__subtitle">Bigi Beef Sausage Roll</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex fav__button">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                </div>
+                <!--==================== FAV CARD 6 ====================-->
+                <div class="fav__card">
+                    <img src="assets/img/fav6.png" alt="" class="fav__img">
+
+                    <div class="fav__content">
+                        <span class="fav_rating">
+                            <i class='bx bx-star fav__rating-icon'></i>
+                            <span class="fav__rating-number">4,8</span>
+                        </span>
+
+                        <div class="fav__data">
+                            <h3 class="fav__title">SAUSAGES</h3>
+                            <span class="fav__subtitle">Rite Sausage Roll</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex fav__button">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section" id="subscribe">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                    <p class="subscribe__description">Subscribe to our newsletter and get a
+                        special 10% discount.
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Enter email" class="subscribe__input">
+
+                        <button class="button">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title"><img src="assets/img/logo.png"></h3>
+                        <p class="footer__description">We are a truly world-class <br>and proudly Nigerian brand.
+                        </p>
+                        <div>
+                            <a href="https://fb.me/ideacloud_ng" target="_blank" class="footer__social">
+                                <i class='bx bxl-facebook-square'></i>
+                            </a>
+                            <a href="https://www.instagram.com/ideacloud_ng" target="_blank" class="footer__social">
+                                <i class='bx bxl-instagram-alt'></i>
+                            </a>
+                            <a href="https://youtube.com/channel/UCier5h13oVNYEdI7_XXJIjw" target="_blank"
+                                class="footer__social">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About Us</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Code of Conduct</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Milestones</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Our Brands</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Our Policy</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Terms of Use</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Licenses</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__data">
+                        <ul>
+                            <li class="footer__item">
+                                <a href="https://youtube.com/channel/UCier5h13oVNYEdI7_XXJIjw" class="footer__link"
+                                    target="_blank" class="footer__social">
+                                    <i class='bx bx-current-location'></i> 40 Opebi Road, Adebola House, Ikeja
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://youtube.com/channel/UCier5h13oVNYEdI7_XXJIjw" class="footer__link"
+                                    target="_blank" class="footer__social">
+                                    <i class='bx bx-alarm'></i> Mon. - Fri. 8.00 am - 5.00 pm
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://youtube.com/channel/UCier5h13oVNYEdI7_XXJIjw" class="footer__link"
+                                    target="_blank" class="footer__social">
+                                    <i class='bx bx-envelope'></i> customercare@ritefoodsltd.com
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://youtube.com/channel/UCier5h13oVNYEdI7_XXJIjw" class="footer__link"
+                                    target="_blank" class="footer__social">
+                                    <i class='bx bxs-phone'></i> 09053804042 / 09053804050
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; Imam Abubakar. Coding rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
